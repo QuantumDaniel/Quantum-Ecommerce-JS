@@ -71,7 +71,7 @@ products.forEach((products) => {
                 <div class="item-name"> ${products.name}</div>
                 <div class="rating">${products.rating}  (${products.ratingNumbers})</small></div>
                 <div class="price">$${products.price} </div >
-        <div class="cart-button-container"><button class="cart-button">Add to Cart</button></div>
+        <div class="cart-button-container-main"><button class="cart-button">Add to Cart</button></div>
             </div >
 
 
@@ -81,4 +81,4 @@ products.forEach((products) => {
 
 });
 
-document.querySelector('.container').innerHTML = items;
+document.querySelector('.container-main').innerHTML = items;
